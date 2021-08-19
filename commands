@@ -1,7 +1,9 @@
 git status								-status of branch
 git add .								-add all to staging enviroment
 git add <name_of_file>					-add file to staging enviroment
+git add --all							-push everything to staging
 git log									-log
 git commit -m ""						-commit staged files
 git checkout							-restore previous version
 git reset HEAD <name_of_file>			-Clear staging enviroment
+git rm <name_of_file>					-Delete file
