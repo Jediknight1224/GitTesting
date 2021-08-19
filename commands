@@ -5,5 +5,7 @@ git add --all							-push everything to staging
 git log									-log
 git commit -m ""						-commit staged files
 git checkout							-restore previous version
+git checkout <hex>						-detach head
 git reset HEAD <name_of_file>			-Clear staging enviroment
 git rm <name_of_file>					-Delete file
+git branch								-get all branches
