@@ -1,0 +1,5 @@
+git status
+git add .
+git add <name_of_file>
+git log
+git commit -m ""
