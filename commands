@@ -1,23 +1,23 @@
-git init								-initialize git
-git status								-Status of branch
-git add .								-Add all to staging enviroment
-git add <name_of_file>					-Add file to staging enviroment
-git add --all							-Push everything to staging
-git log									-Log
-git commit -m ""						-Commit staged files
-git checkout							-Restore previous version
-git checkout <hex>						-Detach head
-git checkout <name>						-Move to branch
-git reset HEAD <name_of_file>			-Clear staging enviroment
-git rm <name_of_file>					-Delete file
-git branch								-Get all branches
-git branch <name>						-Create a new branch
-git branch -m <old_name> <new_name>		-Rename branch
-git branch -D <name>					-Delete branch
-git merge <name>						-Merge branch with current branch 
+git init								              -initialize git
+git status					      			      -Status of branch
+git add .								              -Add all to staging enviroment
+git add <name_of_file>      					-Add file to staging enviroment
+git add --all							            -Push everything to staging
+git log								      	        -Log
+git commit -m ""      						    -Commit staged files
+git checkout							            -Restore previous version
+git checkout <hex>			      			  -Detach head
+git checkout <name>     						  -Move to branch
+git reset HEAD <name_of_file>		      -Clear staging enviroment
+git rm <name_of_file>			      		  -Delete file
+git branch					      			      -Get all branches
+git branch <name>						          -Create a new branch
+git branch -m <old_name> <new_name>	  -Rename branch
+git branch -D <name>					        -Delete branch
+git merge <name>				          		-Merge branch with current branch 
 
 github repo						
-git intit -b <branch_name>				-initialize git
-git remote add origin <repo_url>		-add remote to local repo
-git remote -v							-verify url
-git push -u origin <branch_name>		-push branch to remote
+git intit -b <branch_name>				    -initialize git
+git remote add origin <repo_url>	  	-add remote to local repo
+git remote -v							            -verify url
+git push -u origin <branch_name>		  -push branch to remote
